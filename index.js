@@ -5,11 +5,13 @@ class Scooter {
     this.model = model;
     }
 }
-const Driver = (name, age, experience) => {
+class Driver {
+  constructor (name, age, experience) {
   this.name = name;
   this.age = age;
   this.experience = experience;
-};
+  }
+}
 
 const PickupLocation = (address, city) => {
   this.address = address;
