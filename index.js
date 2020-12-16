@@ -1,9 +1,9 @@
 class Scooter {
-constructor  (year, color, model){
-  this.year = year;
-  this.color = color;
-  this.model = model;
-  }
+  constructor  (year, color, model){
+    this.year = year;
+    this.color = color;
+    this.model = model;
+    }
 }
 const Driver = (name, age, experience) => {
   this.name = name;
